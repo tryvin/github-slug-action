@@ -2,34 +2,25 @@
 
 ## Supported Versions and Branches
 
-We only support 2 major versions for security patches
+| Version | Supported          | End of Support | Branch | Specific Tags |
+| ------- | ------------------ | -------------- | ------ | ------------- |
+| 4.x     | :white_check_mark: |                | v4.x   | v4            |
+| 3.x     | :x:                | 2024-01-31     |        | v3.x, v3      |
+| 2.x     | :x:                | 2021-04-05     |        | v2.x, 2.2.0   |
+| 1.x     | :x:                | 2021-04-05     |        | v1.1.x, 1.2.0 |
+| 1.0.x   | :x:                | 2019-11-07     |        | 1.0.2         |
 
-| Version | Branch | Supported          | Specific Tags |
-| ------- | ------ | ------------------ | ------------- |
-| 4.x     | v4.x   | :white_check_mark: | v4            |
-| 3.x     | v3.x   | :white_check_mark: |               |
-| < 2.x   |        | :x:                | v2.x, v1.1.x  |
-
-A GitHub repository can used one of the available branches as action inside its workflows.
+A GitHub repository can use one of the available branches as an action inside its workflows.
 
 ### End of Life of a branch
 
-When a branch is not supported anymore, the following process occurs
+Since `2023-10-20`, when a new major version is released,
 
-- Since `v4.x` branch, the branch will be deleted 2 major versions after
-  - So `v4.x` branch will be deleted when `v7.x` branch will have its first release
-  - prefer the `v4` tag to `v4.x` branch as reference in our workflow, 
-- Before `v4.x` branch, the branch will be converted into a tag when the support is dropped
-  - So `v3.x` branch will be converted as tag when `v5.x` branch will have its first release
+- The previous one will continue to receive security patches for 3 months,
+- After the 3 months, the branch is deleted, and only the tags remain.
 
 ## Reporting a Vulnerability
 
-You can report a Vulnerability by [my email](mailto:romain.lespinasse@gmail.com).
+In this project, you can report a Vulnerability by creating a [draft security advisory](https://github.com/rlespinasse/github-slug-action/security/advisories).
 
-_Vulnerability stages :_
-
-- Reported,
-- Confirmed (or declined),
-- Fixed on maintained version series.
-
-After a vulnerability fix, an GitHub issue will be created as document this vulnerability.
+If the vulnerability is confirmed, a fix will be produced and the advisory will be published.

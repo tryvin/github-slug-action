@@ -239,12 +239,22 @@ Please, use the current major tag `v4` or a version tag (see [releases pages][re
 
 ## Thanks for talking about us
 
-- [Mettre en place une CI/CD Angular avec GitHub Actions & Netlify][article-1] (in french :fr:)
+In English :gb:
+
 - [Action spotlight by Michael Heap][article-2]
 - [Serverless Deploy Previews on GitHub Actions][article-3]
 - [Let's Build a Continuous Delivery and Branching Process with Github Actions, Vercel and Heroku][article-4]
-- [Github Actions : enfin des pipelines accessibles aux développeurs][talk-1] (in french :fr:)
-- The next one is you. _Don't hesitate to add youself to this list._
+
+In French :fr: 
+
+- [Mettre en place une CI/CD Angular avec GitHub Actions & Netlify][article-1]
+- [Github Actions : enfin des pipelines accessibles aux développeurs][talk-1]
+
+In Chinese :cn:
+
+- [利用github-slug-action暴漏Github Action上下文中的关键变量][article-5]
+
+> The next one is you. _Don't hesitate to add youself to one of these lists._
 
 [examples]: https://github.com/rlespinasse/github-slug-action/tree/v4.x/examples
 [custom-variable]: https://github.com/rlespinasse/github-slug-action/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=
@@ -264,4 +274,5 @@ Please, use the current major tag `v4` or a version tag (see [releases pages][re
 [article-2]: https://michaelheap.com/github-slug-action/
 [article-3]: https://barstool.engineering/serverless-deploy-previews-on-github-actions/
 [article-4]: https://javascript.plainenglish.io/lets-build-a-continuous-delivery-and-branching-process-c27dae09f0b6
+[article-5]: https://eryajf.github.io/HowToStartOpenSource/views/03-github-tips/10-Use-github-slug-action-to-leak-key-variables-in-the-Github-Action-context.html
 [talk-1]: https://www.youtube.com/watch?v=F5mBDmOQcvE
